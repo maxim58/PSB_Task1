@@ -1,15 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
-using CsvHelper;
 
 namespace PSB_Task1
 {
@@ -26,7 +21,6 @@ namespace PSB_Task1
             if (processNames.Length == 0)
             {
                 MessageBox.Show("Текстовое поле пустое. Введите имя процесса(ов).", "Внимание!");
-                //MessageBox.Show(Environment.UserName);
             }
             else
             {

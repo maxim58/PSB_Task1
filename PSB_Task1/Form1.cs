@@ -100,14 +100,14 @@ namespace PSB_Task1
         }
         private void OpenCSV (string path)
         {
-            Type officeType = Type.GetTypeFromProgID("Excel.Application");
-            if (officeType != null)
+            try
             {
+                Type officeType = Type.GetTypeFromProgID("Excel.Application");
                 Process.Start(path);
             }
-            else
+            catch(Exception ex)
             {
-                Process.Start(path);
+                MessageBox.Show(ex.Message);
             }
         }
     }

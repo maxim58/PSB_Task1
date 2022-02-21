@@ -36,6 +36,7 @@ namespace PSB_Task1
             // 
             // GetInfo_button
             // 
+            this.GetInfo_button.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.GetInfo_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(200)))));
             this.GetInfo_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.GetInfo_button.ForeColor = System.Drawing.Color.White;
@@ -49,6 +50,8 @@ namespace PSB_Task1
             // 
             // ProcessNames_textBox
             // 
+            this.ProcessNames_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ProcessNames_textBox.BackColor = System.Drawing.Color.DimGray;
             this.ProcessNames_textBox.ForeColor = System.Drawing.Color.White;
             this.ProcessNames_textBox.Location = new System.Drawing.Point(32, 60);

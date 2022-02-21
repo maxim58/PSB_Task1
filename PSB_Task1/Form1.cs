@@ -102,7 +102,6 @@ namespace PSB_Task1
         {
             try
             {
-                Type officeType = Type.GetTypeFromProgID("Excel.Application");
                 Process.Start(path);
             }
             catch(Exception ex)
